@@ -1,10 +1,10 @@
-<com.dangbei.gonzalez.layout.GonRelativeLayout
+<com.tzy.gonzalez.layout.GonRelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.dangbei.gonzalez.view.GonCheckBox
+    <com.tzy.gonzalez.view.GonCheckBox
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#00f"
@@ -12,7 +12,7 @@
         app:gon_layout_margin="100"
         app:gon_layout_width="300" />
 
-    <com.dangbei.gonzalez.view.GonTextView
+    <com.tzy.gonzalez.view.GonTextView
         android:id="@+id/gtv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         app:gon_paddingTop="50"
         app:gon_textSize="70" />
 
-    <com.dangbei.gonzalez.layout.GonRelativeLayout
+    <com.tzy.gonzalez.layout.GonRelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/gtv"
@@ -40,4 +40,4 @@
         android:background="#f0f"
         app:gon_layout_height="200"
         app:gon_layout_marginLeft="200" />
-</com.dangbei.gonzalez.layout.GonRelativeLayout>
+</com.tzy.gonzalez.layout.GonRelativeLayout>
