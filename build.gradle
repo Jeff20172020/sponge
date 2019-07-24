@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    }
+
+    ext {
+        global_compileSdkVersion = 25
+        global_minSdkVersion = 11
+        global_targetSdkVersion = 25
+        global_supportVersion = '25.0.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
