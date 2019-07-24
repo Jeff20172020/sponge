@@ -64,9 +64,9 @@ uploadArchives {
 
                 developers {
                     developer {
-                        id 'guoxiaodong'
+                        id 'tzy'
                         name 'Guo xiaodong'
-                        email 'guoxiaodong@znds.com'
+                        email 'tzy@znds.com'
                     }
                 }
             }
